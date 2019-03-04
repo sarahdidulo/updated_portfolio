@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.background {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	/*width: 100vw;*/
+	
+}
+
+.background a {
+	color: white;
+	/*font-family: 'Noto Sans', sans-serif;*/
+	/*font-family: 'Nanum Gothic', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	text-decoration: none;
+
+}
+
+.background a:hover{
+	/*background-color: white;*/
+	color: magenta;
+	text-shadow: 1px 2px 6px black;
+}
+
+.list li{
+	float: left;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 8%;
+	padding-bottom: 4%;
+
+}
+
+.list{
+	width: 100%;
+}
+
+.background ul{
+	list-style: none;
+}
+
+.list{
+	text-align: center;
+	padding-left: 19%;
+	/*width: 100%;*/
+}
+
+.bio img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	/*border: 1px solid black;*/
+	/*margin-top: 10px;*/
+	box-shadow: 1px 5px 10px black;
+}
+
+.bio{
+	padding-top: 5px;
+}
+
+.overlay{
+	background-color: rgb(38, 38, 38, .4);
+	/*margin-top: 13%;*/
+	height: 450px;
+	padding: 2%;
+	width: 100%;
+}
+
+.bio p{
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	padding: 2% 15%;
+	line-height: 27px;
+	text-align: justify;
+}
+
+.skillset{
+	color: white;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.skillset img{
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+
