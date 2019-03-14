@@ -206,7 +206,7 @@
 #contact{
 	background-color: #181818;
 	min-height: 80vh;
-	padding: 5% 2% 2% 5%;
+	padding: 5%;
 	width: 100%;
 }
 
@@ -219,7 +219,7 @@
 }
 
 #map{
-	width: 400px;
+	width: 100% !important;
 }
 
 #contactme {
@@ -325,7 +325,7 @@ footer{
 
 	#portfolio {
 		padding: 5% 1% 1% 1%;
-		min-height: 80vh;
+		height: auto;
 	}
 
 	#portfolio #aqua{
